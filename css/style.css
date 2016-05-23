@@ -8,6 +8,7 @@
 	font-weight: normal;
 }
 *{list-style:none;}
+
 h2{
 	font-family: Amaranth;
 	font-size: 26px;
@@ -39,7 +40,7 @@ background: #f0f1f0; /* Old browsers */
 background: -moz-linear-gradient(top,  #f0f1f0 0%, #edeeed 52%, #e8e9e8 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  #f0f1f0 0%,#edeeed 52%,#e8e9e8 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom,  #f0f1f0 0%,#edeeed 52%,#e8e9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f1f0', endColorstr='#e8e9e8',GradientType=0 ); /* IE6-9 */
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f1f0', endColorstr='#e8e9e8',GradientType=0 );*/ /* IE6-9 */
 
 }
 .wrap-mobile{
@@ -708,5 +709,6 @@ footer .container-wrap{
     display: none;
     width: 100%;
     margin: auto;
+    padding: 0;
 }
 
