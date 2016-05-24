@@ -34,6 +34,12 @@ span{
     margin: 0 auto;
     padding: 60px 0;
 }
+time{
+	font-size: 14px;
+	font-family: Arial;
+	margin-bottom: 8px !important;
+	color: #6b6b6b;
+}
 section{
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f0f1f0+0,edeeed+52,e8e9e8+100 */
 background: #f0f1f0; /* Old browsers */
@@ -135,6 +141,16 @@ background: linear-gradient(to bottom,  #f0f1f0 0%,#edeeed 52%,#e8e9e8 100%); /*
 }
 .text-block a:hover{
 	opacity: .8;
+}
+.art-title{
+	display: inline-block;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 10px;
+	outline: none !important;
+	text-decoration: none !important;
+	color: #000000 !important;
 }
 .archive{
 	padding-left: 0;
@@ -326,6 +342,16 @@ background: linear-gradient(to bottom,  #f0f1f0 0%,#edeeed 52%,#e8e9e8 100%); /*
 	width: 82%;
 	padding: 0px 10px 0 20px;
 }
+.services-box .text-wrap a{
+	display: inline-block;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: #000000 !important;
+	text-decoration: none;
+	outline: none !important;
+}
 .business-box{
 	text-align: center;
 	font-family: Amaranth;
@@ -457,10 +483,19 @@ background: linear-gradient(to bottom,  #f0f1f0 0%,#edeeed 52%,#e8e9e8 100%); /*
 	opacity: .8;
 	text-decoration: none;
 }
-.text-holder span{
+.text-holder a{
 	font-size: 16px;
 	margin-bottom: 11px;
+	color: #000000 !important;
+	text-decoration: none;
+	outline: none !important;
+	font-family: Arial;
+    font-weight: bold;
 }
+/*.text-holder span{
+	font-size: 16px;
+	margin-bottom: 11px;
+}*/
 .text-holder p{
 	margin-bottom: 26px !important;
 }
@@ -551,6 +586,9 @@ footer .container-wrap{
 	span {
 	    font-size: 13px;
 	    margin-bottom: 5px;
+	}
+	.art-title{
+		display: block;
 	}
 	.archive li {
 	    display: inline-block;
