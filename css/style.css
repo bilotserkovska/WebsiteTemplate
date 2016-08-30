@@ -59,15 +59,20 @@ background: linear-gradient(to bottom,  #f0f1f0 0%,#edeeed 52%,#e8e9e8 100%); /*
 	font-size: 36px;
 	margin-bottom: 55px !important;	
 }
+.logo h2{
+	font-size: 76px;
+
+}
 .logo{
 	display: inline-block;
     height: 85px;
 	margin-left: -5px;
-	font-size: 76px;
 	font-family: Amaranth;
 	color: #bb0e0e;
 	text-decoration: none;
 	outline: none !important;
+	font-size: 76px;
+	
 	 -webkit-transition: opacity .3s linear;
      -moz-transition: opacity .3s linear;
      -o-transition: opacity .3s linear;
